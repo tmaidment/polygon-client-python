@@ -18494,7 +18494,7 @@
               "application/json": {
                 "example": {
                   "count": 1,
-                  "next_url": "https://api.polygon.io:443/v2/reference/news?cursor=eyJsaW1pdCI6MSwic29ydCI6InB1Ymxpc2hlZF91dGMiLCJvcmRlciI6ImFzY2VuZGluZyIsInRpY2tlciI6e30sInB1Ymxpc2hlZF91dGMiOnsiZ3RlIjoiMjAyMS0wNC0yNiJ9LCJzZWFyY2hfYWZ0ZXIiOlsxNjE5NDA0Mzk3MDAwLG51bGxdfQ",
+                  "next_url": "http://polygon.theedman.com:8000:443/v2/reference/news?cursor=eyJsaW1pdCI6MSwic29ydCI6InB1Ymxpc2hlZF91dGMiLCJvcmRlciI6ImFzY2VuZGluZyIsInRpY2tlciI6e30sInB1Ymxpc2hlZF91dGMiOnsiZ3RlIjoiMjAyMS0wNC0yNiJ9LCJzZWFyY2hfYWZ0ZXIiOlsxNjE5NDA0Mzk3MDAwLG51bGxdfQ",
                   "request_id": "831afdb0b8078549fed053476984947a",
                   "results": [
                     {
@@ -31203,7 +31203,7 @@
   "servers": [
     {
       "description": "Polygon Platform API",
-      "url": "https://api.polygon.io"
+      "url": "http://polygon.theedman.com:8000"
     },
     {
       "description": "Polygon Platform API (Staging)",
