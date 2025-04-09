@@ -102,8 +102,8 @@ class TickersTest(BaseTest):
                 postal_code="95014",
             ),
             branding=Branding(
-                icon_url="https://api.polygon.io/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-05-01_icon.png",
-                logo_url="https://api.polygon.io/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-05-01_logo.svg",
+                icon_url="http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-05-01_icon.png",
+                logo_url="http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-05-01_logo.svg",
             ),
             cik="0000320193",
             composite_figi="BBG000B9XRY4",

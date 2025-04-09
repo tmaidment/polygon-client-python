@@ -16,7 +16,7 @@ aggs = cast(
     ),
 )
 print(aggs.geturl())
-# https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2022-04-01/2022-04-04
+# http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2022-04-01/2022-04-04
 print(aggs.status)
 # 200
 print(aggs.data)

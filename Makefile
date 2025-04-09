@@ -37,7 +37,7 @@ rest-spec:
 
 ## Update the WebSocket API spec
 ws-spec:
-	curl https://api.polygon.io/specs/websocket.json > .polygon/websocket.json
+	curl http://polygon.theedman.com:8000/specs/websocket.json > .polygon/websocket.json
 
 test_rest:
 	poetry run python -m unittest discover -s test_rest
