@@ -229,6 +229,7 @@ class BaseClient:
                 yield deserializer(t)
             if "next_url" in decoded:
                 path = decoded["next_url"].replace(self.BASE, "")
+                path = decoded["next_url"].replace("https://api.polygon.io", "")
                 params = {}
             else:
                 return
