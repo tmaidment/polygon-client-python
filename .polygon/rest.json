@@ -5909,11 +5909,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/ema/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/ema/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -6227,11 +6227,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/ema/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/ema/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -6545,11 +6545,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/ema/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz01MA",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/ema/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz01MA",
                   "request_id": "b9201816341441eed663a90443c0623a",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366449650?limit=226&sort=desc"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366449650?limit=226&sort=desc"
                     },
                     "values": [
                       {
@@ -6858,11 +6858,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/ema/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/ema/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -7176,11 +7176,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/ema/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/ema/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -7503,11 +7503,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/macd/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/macd/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -7865,11 +7865,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/macd/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/macd/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -8227,11 +8227,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/macd/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MTUwODAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0yJmxvbmdfd2luZG93PTI2Jm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2Umc2hvcnRfd2luZG93PTEyJnNpZ25hbF93aW5kb3c9OSZ0aW1lc3Bhbj1kYXkmdGltZXN0YW1wLmx0PTE2ODcyMTkyMDAwMDA",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/macd/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MTUwODAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0yJmxvbmdfd2luZG93PTI2Jm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2Umc2hvcnRfd2luZG93PTEyJnNpZ25hbF93aW5kb3c9OSZ0aW1lc3Bhbj1kYXkmdGltZXN0YW1wLmx0PTE2ODcyMTkyMDAwMDA",
                   "request_id": "2eeda0be57e83cbc64cc8d1a74e84dbd",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366537196?limit=121&sort=desc"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366537196?limit=121&sort=desc"
                     },
                     "values": [
                       {
@@ -8584,11 +8584,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/macd/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/macd/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -8946,11 +8946,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/macd/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/macd/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -9277,11 +9277,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/rsi/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/rsi/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -9595,11 +9595,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/rsi/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/rsi/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -9913,11 +9913,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/rsi/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz0xNA",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/rsi/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz0xNA",
                   "request_id": "28a8417f521f98e1d08f6ed7d1fbcad3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366658253?limit=66&sort=desc"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366658253?limit=66&sort=desc"
                     },
                     "values": [
                       {
@@ -10226,11 +10226,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/rsi/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/rsi/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -10544,11 +10544,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/rsi/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/rsi/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -10851,7 +10851,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/sma/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/sma/X:BTCUSD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
@@ -10877,7 +10877,7 @@
                           "vw": 74.7026
                         }
                       ],
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/X:BTCUSD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -11191,7 +11191,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/sma/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/sma/C:USDAUD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
@@ -11217,7 +11217,7 @@
                           "vw": 74.7026
                         }
                       ],
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/C:USDAUD/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -11531,11 +11531,11 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/sma/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz01Mw",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/sma/I:NDX?cursor=YWRqdXN0ZWQ9dHJ1ZSZhcD0lN0IlMjJ2JTIyJTNBMCUyQyUyMm8lMjIlM0EwJTJDJTIyYyUyMiUzQTE1MDg0Ljk5OTM4OTgyMDAzJTJDJTIyaCUyMiUzQTAlMkMlMjJsJTIyJTNBMCUyQyUyMnQlMjIlM0ExNjg3MjE5MjAwMDAwJTdEJmFzPSZleHBhbmRfdW5kZXJseWluZz1mYWxzZSZsaW1pdD0xJm9yZGVyPWRlc2Mmc2VyaWVzX3R5cGU9Y2xvc2UmdGltZXNwYW49ZGF5JnRpbWVzdGFtcC5sdD0xNjg3MjM3MjAwMDAwJndpbmRvdz01Mw",
                   "request_id": "4cae270008cb3f947e3f92c206e3888a",
                   "results": {
                     "underlying": {
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366378997?limit=240&sort=desc"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/I:NDX/range/1/day/1678338000000/1687366378997?limit=240&sort=desc"
                     },
                     "values": [
                       {
@@ -11844,7 +11844,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/sma/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/sma/O:SPY241220P00720000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
@@ -11870,7 +11870,7 @@
                           "vw": 74.7026
                         }
                       ],
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/O:SPY241220P00720000/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -12184,7 +12184,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v1/indicators/sma/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v1/indicators/sma/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": {
                     "underlying": {
@@ -12210,7 +12210,7 @@
                           "vw": 74.7026
                         }
                       ],
-                      "url": "http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
+                      "url": "https://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/2003-01-01/2022-07-25"
                     },
                     "values": [
                       {
@@ -14622,8 +14622,8 @@
                   "results": [
                     {
                       "branding": {
-                        "icon_url": "http://polygon.theedman.com:8000/icon.png",
-                        "logo_url": "http://polygon.theedman.com:8000/logo.svg"
+                        "icon_url": "https://polygon.theedman.com:8000/icon.png",
+                        "logo_url": "https://polygon.theedman.com:8000/logo.svg"
                       },
                       "last_updated": 1679597116344223500,
                       "market_status": "closed",
@@ -14695,8 +14695,8 @@
                     },
                     {
                       "branding": {
-                        "icon_url": "http://polygon.theedman.com:8000/icon.png",
-                        "logo_url": "http://polygon.theedman.com:8000/logo.svg"
+                        "icon_url": "https://polygon.theedman.com:8000/icon.png",
+                        "logo_url": "https://polygon.theedman.com:8000/logo.svg"
                       },
                       "last_updated": 1679597116344223500,
                       "market_status": "open",
@@ -17589,7 +17589,7 @@
               "application/json": {
                 "example": {
                   "adjusted": true,
-                  "next_url": "http://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/1578114000000/2020-01-10?cursor=bGltaXQ9MiZzb3J0PWFzYw",
+                  "next_url": "https://polygon.theedman.com:8000/v2/aggs/ticker/AAPL/range/1/day/1578114000000/2020-01-10?cursor=bGltaXQ9MiZzb3J0PWFzYw",
                   "queryCount": 2,
                   "request_id": "6a7e466379af0a71039d60cc78e72282",
                   "results": [
@@ -18494,7 +18494,7 @@
               "application/json": {
                 "example": {
                   "count": 1,
-                  "next_url": "http://polygon.theedman.com:8000:443/v2/reference/news?cursor=eyJsaW1pdCI6MSwic29ydCI6InB1Ymxpc2hlZF91dGMiLCJvcmRlciI6ImFzY2VuZGluZyIsInRpY2tlciI6e30sInB1Ymxpc2hlZF91dGMiOnsiZ3RlIjoiMjAyMS0wNC0yNiJ9LCJzZWFyY2hfYWZ0ZXIiOlsxNjE5NDA0Mzk3MDAwLG51bGxdfQ",
+                  "next_url": "https://polygon.theedman.com:8000:443/v2/reference/news?cursor=eyJsaW1pdCI6MSwic29ydCI6InB1Ymxpc2hlZF91dGMiLCJvcmRlciI6ImFzY2VuZGluZyIsInRpY2tlciI6e30sInB1Ymxpc2hlZF91dGMiOnsiZ3RlIjoiMjAyMS0wNC0yNiJ9LCJzZWFyY2hfYWZ0ZXIiOlsxNjE5NDA0Mzk3MDAwLG51bGxdfQ",
                   "request_id": "831afdb0b8078549fed053476984947a",
                   "results": [
                     {
@@ -22910,7 +22910,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/quotes/C:EUR-USD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/quotes/C:EUR-USD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -23137,7 +23137,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/quotes/O:SPY241220P00720000?cursor=YXA9NzY5Nzg0NzAxJmFzPSZsaW1pdD0xMCZvcmRlcj1kZXNjJnNvcnQ9dGltZXN0YW1wJnRpbWVzdGFtcC5sdGU9MjAyMi0wMi0xN1QxNyUzQTI1JTNBMTMuMDA5MzU2MDMyWg",
+                  "next_url": "https://polygon.theedman.com:8000/v3/quotes/O:SPY241220P00720000?cursor=YXA9NzY5Nzg0NzAxJmFzPSZsaW1pdD0xMCZvcmRlcj1kZXNjJnNvcnQ9dGltZXN0YW1wJnRpbWVzdGFtcC5sdGU9MjAyMi0wMi0xN1QxNyUzQTI1JTNBMTMuMDA5MzU2MDMyWg",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -23379,7 +23379,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/quotes/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/quotes/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -24707,7 +24707,7 @@
                 "schema": {
                   "description": "A list of dividends.",
                   "example": {
-                    "next_url": "http://polygon.theedman.com:8000/v3/reference/dividends/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                    "next_url": "https://polygon.theedman.com:8000/v3/reference/dividends/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                     "results": [
                       {
                         "cash_amount": 0.22,
@@ -25851,7 +25851,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/splits/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/splits/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "results": [
                     {
                       "execution_date": "2020-08-31",
@@ -26162,7 +26162,7 @@
               "application/json": {
                 "example": {
                   "count": 1,
-                  "next_url": "http://polygon.theedman.com:8000/v3/reference/tickers?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/reference/tickers?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "e70013d92930de90e089dc8fa098888e",
                   "results": [
                     {
@@ -26571,8 +26571,8 @@
                       "state": "CA"
                     },
                     "branding": {
-                      "icon_url": "http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_icon.png",
-                      "logo_url": "http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_logo.svg"
+                      "icon_url": "https://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_icon.png",
+                      "logo_url": "https://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_logo.svg"
                     },
                     "cik": "0000320193",
                     "composite_figi": "BBG000B9XRY4",
@@ -26790,7 +26790,7 @@
                 }
               },
               "text/csv": {
-                "example": "ticker,name,market,locale,primary_exchange,type,active,currency_name,cik,composite_figi,share_class_figi,share_class_shares_outstanding,weighted_shares_outstanding,round_lot,market_cap,phone_number,address1,address2,city,state,postal_code,sic_code,sic_description,ticker_root,total_employees,list_date,homepage_url,description,branding/logo_url,branding/icon_url\nAAPL,Apple Inc.,stocks,us,XNAS,CS,true,usd,0000320193,BBG000B9XRY4,BBG001S5N8V8,16406400000,16334371000,100,2771126040150,(408) 996-1010,One Apple Park Way,,Cupertino,CA,95014,3571,ELECTRONIC COMPUTERS,AAPL,154000,1980-12-12,https://www.apple.com,\"Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), AirPods, and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple's total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care, Apple TV+, Apple Arcade, Apple Card, and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates roughly 40% of its revenue from the Americas, with the remainder earned internationally.\",http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_logo.svg,http://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_icon.png\n",
+                "example": "ticker,name,market,locale,primary_exchange,type,active,currency_name,cik,composite_figi,share_class_figi,share_class_shares_outstanding,weighted_shares_outstanding,round_lot,market_cap,phone_number,address1,address2,city,state,postal_code,sic_code,sic_description,ticker_root,total_employees,list_date,homepage_url,description,branding/logo_url,branding/icon_url\nAAPL,Apple Inc.,stocks,us,XNAS,CS,true,usd,0000320193,BBG000B9XRY4,BBG001S5N8V8,16406400000,16334371000,100,2771126040150,(408) 996-1010,One Apple Park Way,,Cupertino,CA,95014,3571,ELECTRONIC COMPUTERS,AAPL,154000,1980-12-12,https://www.apple.com,\"Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), AirPods, and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple's total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care, Apple TV+, Apple Arcade, Apple Card, and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates roughly 40% of its revenue from the Americas, with the remainder earned internationally.\",https://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_logo.svg,https://polygon.theedman.com:8000/v1/reference/company-branding/d3d3LmFwcGxlLmNvbQ/images/2022-01-10_icon.png\n",
                 "schema": {
                   "type": "string"
                 }
@@ -29121,7 +29121,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/trades/X:BTC-USD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/trades/X:BTC-USD?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -29369,7 +29369,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/trades/O:AZO140621P00530000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/trades/O:AZO140621P00530000?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -29616,7 +29616,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/v3/trades/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/v3/trades/AAPL?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "a47d1beb8c11b6ae897ab76cdbbf35a3",
                   "results": [
                     {
@@ -30021,7 +30021,7 @@
               "application/json": {
                 "example": {
                   "count": 1,
-                  "next_url": "http://polygon.theedman.com:8000/vX/reference/financials?",
+                  "next_url": "https://polygon.theedman.com:8000/vX/reference/financials?",
                   "request_id": "55eb92ed43b25568ab0cce159830ea34",
                   "results": [
                     {
@@ -30299,8 +30299,8 @@
                       },
                       "fiscal_period": "Q1",
                       "fiscal_year": "2022",
-                      "source_filing_file_url": "http://polygon.theedman.com:8000/v1/reference/sec/filings/0001650729-22-000010/files/site-20220403_htm.xml",
-                      "source_filing_url": "http://polygon.theedman.com:8000/v1/reference/sec/filings/0001650729-22-000010",
+                      "source_filing_file_url": "https://polygon.theedman.com:8000/v1/reference/sec/filings/0001650729-22-000010/files/site-20220403_htm.xml",
+                      "source_filing_url": "https://polygon.theedman.com:8000/v1/reference/sec/filings/0001650729-22-000010",
                       "start_date": "2022-01-03"
                     }
                   ],
@@ -30655,7 +30655,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "next_url": "http://polygon.theedman.com:8000/vX/reference/ipos?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
+                  "next_url": "https://polygon.theedman.com:8000/vX/reference/ipos?cursor=YWN0aXZlPXRydWUmZGF0ZT0yMDIxLTA0LTI1JmxpbWl0PTEmb3JkZXI9YXNjJnBhZ2VfbWFya2VyPUElN0M5YWRjMjY0ZTgyM2E1ZjBiOGUyNDc5YmZiOGE1YmYwNDVkYzU0YjgwMDcyMWE2YmI1ZjBjMjQwMjU4MjFmNGZiJnNvcnQ9dGlja2Vy",
                   "request_id": "6a7e466379af0a71039d60cc78e72282",
                   "results": [
                     {
@@ -31203,7 +31203,7 @@
   "servers": [
     {
       "description": "Polygon Platform API",
-      "url": "http://polygon.theedman.com:8000"
+      "url": "https://polygon.theedman.com:8000"
     },
     {
       "description": "Polygon Platform API (Staging)",

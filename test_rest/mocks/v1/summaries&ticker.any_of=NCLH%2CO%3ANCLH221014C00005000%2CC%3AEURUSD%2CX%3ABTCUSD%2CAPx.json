@@ -3,8 +3,8 @@
    "results": [
       {
          "branding": {
-            "icon_url": "http://polygon.theedman.com:8000/icon.png",
-            "logo_url": "http://polygon.theedman.com:8000/logo.svg"
+            "icon_url": "https://polygon.theedman.com:8000/icon.png",
+            "logo_url": "https://polygon.theedman.com:8000/logo.svg"
          },
          "market_status": "closed",
          "name": "Norwegian Cruise Lines",
@@ -73,8 +73,8 @@
       },
       {
          "branding": {
-            "icon_url": "http://polygon.theedman.com:8000/icon.png",
-            "logo_url": "http://polygon.theedman.com:8000/logo.svg"
+            "icon_url": "https://polygon.theedman.com:8000/icon.png",
+            "logo_url": "https://polygon.theedman.com:8000/logo.svg"
          },
          "market_status": "open",
          "name": "Bitcoin - United States Dollar",

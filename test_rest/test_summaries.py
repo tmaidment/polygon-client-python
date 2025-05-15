@@ -12,8 +12,8 @@ class SummariesTest(BaseTest):
                 name="Norwegian Cruise Lines",
                 ticker="NCLH",
                 branding=Branding(
-                    icon_url="http://polygon.theedman.com:8000/icon.png",
-                    logo_url="http://polygon.theedman.com:8000/logo.svg",
+                    icon_url="https://polygon.theedman.com:8000/icon.png",
+                    logo_url="https://polygon.theedman.com:8000/logo.svg",
                 ),
                 market_status="closed",
                 type="stocks",
@@ -82,8 +82,8 @@ class SummariesTest(BaseTest):
                 name="Bitcoin - United States Dollar",
                 ticker="X:BTCUSD",
                 branding=Branding(
-                    icon_url="http://polygon.theedman.com:8000/icon.png",
-                    logo_url="http://polygon.theedman.com:8000/logo.svg",
+                    icon_url="https://polygon.theedman.com:8000/icon.png",
+                    logo_url="https://polygon.theedman.com:8000/logo.svg",
                 ),
                 market_status="open",
                 type="crypto",
