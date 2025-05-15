@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/stocks/get_vx_reference_tickers__id__events
+# https://polygon.theedman.com:8000/docs/stocks/get_vx_reference_tickers__id__events
 # https://github.com/polygon-io/client-python/blob/master/polygon/rest/reference.py
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

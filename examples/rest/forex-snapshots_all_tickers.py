@@ -5,7 +5,7 @@ from polygon.rest.models import (
 )
 
 # docs
-# https://polygon.io/docs/forex/get_v2_snapshot_locale_global_markets_forex_tickers
+# https://polygon.theedman.com:8000/docs/forex/get_v2_snapshot_locale_global_markets_forex_tickers
 # https://polygon-api-client.readthedocs.io/en/latest/Snapshot.html#get-all-snapshots
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

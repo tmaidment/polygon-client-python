@@ -3,7 +3,7 @@ from polygon.websocket.models import WebSocketMessage, Market
 from typing import List
 
 # docs
-# https://polygon.io/docs/options/ws_getting-started
+# https://polygon.theedman.com:8000/docs/options/ws_getting-started
 # https://polygon-api-client.readthedocs.io/en/latest/WebSocket.html
 
 # client = WebSocketClient("XXXXXX") # hardcoded api_key is used

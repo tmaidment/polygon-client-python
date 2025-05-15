@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/forex/get_v2_aggs_ticker__forexticker__prev
+# https://polygon.theedman.com:8000/docs/forex/get_v2_aggs_ticker__forexticker__prev
 # https://polygon-api-client.readthedocs.io/en/latest/Aggs.html#get-previous-close-agg
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

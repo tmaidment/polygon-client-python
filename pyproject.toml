@@ -4,9 +4,9 @@ version = "0.0.0"
 description = "Official Polygon.io REST and Websocket client."
 authors = ["polygon.io"]
 license = "MIT"
-homepage = "https://polygon.io"
+homepage = "https://polygon.theedman.com:8000"
 repository = "https://github.com/polygon-io/client-python"
-documentation = "https://polygon.io/docs"
+documentation = "https://polygon.theedman.com:8000/docs"
 keywords = [
   "polygon",
   "free",

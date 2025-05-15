@@ -5,7 +5,7 @@ from polygon.rest.models import (
 )
 
 # docs
-# https://polygon.io/docs/stocks/get_v3_trades__stockticker
+# https://polygon.theedman.com:8000/docs/stocks/get_v3_trades__stockticker
 # https://polygon-api-client.readthedocs.io/en/latest/Trades.html#polygon.RESTClient.list_trades
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

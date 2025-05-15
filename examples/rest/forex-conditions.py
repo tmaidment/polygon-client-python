@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/forex/get_v3_reference_conditions
+# https://polygon.theedman.com:8000/docs/forex/get_v3_reference_conditions
 # https://polygon-api-client.readthedocs.io/en/latest/Reference.html#list-conditions
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

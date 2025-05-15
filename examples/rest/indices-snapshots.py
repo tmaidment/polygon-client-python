@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/indices/get_v3_snapshot_indices
+# https://polygon.theedman.com:8000/docs/indices/get_v3_snapshot_indices
 # https://github.com/polygon-io/client-python/blob/master/polygon/rest/snapshot.py#
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

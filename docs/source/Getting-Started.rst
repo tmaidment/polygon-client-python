@@ -2,7 +2,7 @@ Getting Started
 ===============
 
 Requirements:
-  - `Polygon.io API key <https://polygon.io/dashboard/api-keys>`_
+  - `Polygon.io API key <https://polygon.theedman.com:8000/dashboard/api-keys>`_
   - `Python >= 3.8 <https://www.python.org/downloads/>`_
   - `This package <https://pypi.org/project/polygon-api-client/>`_
 

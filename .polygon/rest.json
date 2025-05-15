@@ -21,7 +21,7 @@
         }
       },
       "AggregateLimitMax50000": {
-        "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+        "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
         "example": 120,
         "in": "query",
         "name": "limit",
@@ -285,7 +285,7 @@
       "AskExchangeId": {
         "allOf": [
           {
-            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
             "type": "integer"
           },
           {
@@ -305,7 +305,7 @@
       "BidExchangeId": {
         "allOf": [
           {
-            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
             "type": "integer"
           },
           {
@@ -443,7 +443,7 @@
             "type": "array"
           },
           "type": {
-            "description": "The type or class of the security.  (<a alt=\"Full List of Ticker Types\" href=\"https://polygon.io/docs/stocks/get_v3_reference_tickers_types\">Full List of Ticker Types</a>)",
+            "description": "The type or class of the security.  (<a alt=\"Full List of Ticker Types\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers_types\">Full List of Ticker Types</a>)",
             "type": "string"
           },
           "updated": {
@@ -461,7 +461,7 @@
       "ConditionTypeMap": {
         "properties": {
           "condition": {
-            "description": "Polygon.io's mapping for condition codes.  For more information, see our <a href=\"https://polygon.io/glossary/us/stocks/trade-conditions\" alt=\"Trade Conditions Glossary\" target=\"_blank\">Trade Conditions Glossary</a>.\n",
+            "description": "Polygon.io's mapping for condition codes.  For more information, see our <a href=\"https://polygon.theedman.com:8000/glossary/us/stocks/trade-conditions\" alt=\"Trade Conditions Glossary\" target=\"_blank\">Trade Conditions Glossary</a>.\n",
             "type": "string"
           }
         },
@@ -470,7 +470,7 @@
       "Conditions": {
         "description": "A list of condition codes.\n",
         "items": {
-          "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+          "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
           "type": "integer"
         },
         "type": "array"
@@ -483,7 +483,7 @@
         "items": {
           "properties": {
             "id": {
-              "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+              "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
               "type": "integer"
             },
             "market": {
@@ -603,7 +603,7 @@
                 "c": {
                   "description": "A list of condition codes.\n",
                   "items": {
-                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                     "type": "integer"
                   },
                   "type": "array"
@@ -627,7 +627,7 @@
                   "type": "integer"
                 },
                 "x": {
-                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                   "type": "integer"
                 }
               },
@@ -660,13 +660,13 @@
               "conditions": {
                 "description": "A list of condition codes.\n",
                 "items": {
-                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                   "type": "integer"
                 },
                 "type": "array"
               },
               "exchange": {
-                "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                 "type": "integer"
               },
               "price": {
@@ -716,7 +716,7 @@
                 "c": {
                   "description": "A list of condition codes.\n",
                   "items": {
-                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                     "type": "integer"
                   },
                   "type": "array"
@@ -740,7 +740,7 @@
                   "type": "integer"
                 },
                 "x": {
-                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                   "type": "integer"
                 }
               },
@@ -776,7 +776,7 @@
                 "c": {
                   "description": "A list of condition codes.\n",
                   "items": {
-                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                    "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                     "type": "integer"
                   },
                   "type": "array"
@@ -800,7 +800,7 @@
                   "type": "integer"
                 },
                 "x": {
-                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                  "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                   "type": "integer"
                 }
               },
@@ -934,7 +934,7 @@
                 "type": "object"
               },
               "fmv": {
-                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                 "format": "double",
                 "type": "number"
               },
@@ -970,7 +970,7 @@
                         "type": "integer"
                       },
                       "x": {
-                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                         "type": "integer"
                       }
                     },
@@ -1252,7 +1252,7 @@
                   "type": "object"
                 },
                 "fmv": {
-                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                   "format": "double",
                   "type": "number"
                 },
@@ -1288,7 +1288,7 @@
                           "type": "integer"
                         },
                         "x": {
-                          "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                          "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                           "type": "integer"
                         }
                       },
@@ -1443,7 +1443,7 @@
           "c": {
             "description": "A list of condition codes.\n",
             "items": {
-              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
               "type": "integer"
             },
             "type": "array"
@@ -1467,7 +1467,7 @@
             "type": "integer"
           },
           "x": {
-            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
             "type": "integer"
           }
         },
@@ -1482,7 +1482,7 @@
         "type": "object"
       },
       "CryptoTradeExchange": {
-        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
         "type": "integer"
       },
       "Date": {
@@ -1534,7 +1534,7 @@
         "type": "array"
       },
       "ExchangeId": {
-        "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+        "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
         "type": "integer"
       },
       "Financial": {
@@ -2020,7 +2020,7 @@
         "type": "object"
       },
       "Fmv": {
-        "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+        "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
         "format": "double",
         "type": "number"
       },
@@ -2053,7 +2053,7 @@
                 "type": "number"
               },
               "exchange": {
-                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                 "type": "integer"
               },
               "timestamp": {
@@ -2083,7 +2083,7 @@
         "type": "object"
       },
       "ForexExchangeId": {
-        "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+        "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
         "type": "integer"
       },
       "ForexGroupedResults": {
@@ -2187,7 +2187,7 @@
                   "type": "integer"
                 },
                 "x": {
-                  "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                  "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                   "type": "integer"
                 }
               },
@@ -2226,7 +2226,7 @@
                 "type": "number"
               },
               "exchange": {
-                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                 "type": "integer"
               },
               "timestamp": {
@@ -2431,7 +2431,7 @@
                 "type": "object"
               },
               "fmv": {
-                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                 "format": "double",
                 "type": "number"
               },
@@ -2626,7 +2626,7 @@
                   "type": "object"
                 },
                 "fmv": {
-                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                   "format": "double",
                   "type": "number"
                 },
@@ -2876,7 +2876,7 @@
         "type": "object"
       },
       "Indicators": {
-        "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+        "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
         "items": {
           "description": "The indicator code.\n",
           "type": "integer"
@@ -3927,7 +3927,7 @@
                 "type": "object"
               },
               "fmv": {
-                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                 "format": "double",
                 "type": "number"
               },
@@ -3994,7 +3994,7 @@
                     "type": "integer"
                   },
                   "x": {
-                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                     "type": "integer"
                   }
                 },
@@ -4197,7 +4197,7 @@
                   "type": "object"
                 },
                 "fmv": {
-                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                  "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                   "format": "double",
                   "type": "number"
                 },
@@ -4264,7 +4264,7 @@
                       "type": "integer"
                     },
                     "x": {
-                      "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                      "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                       "type": "integer"
                     }
                   },
@@ -4560,7 +4560,7 @@
               "X": {
                 "allOf": [
                   {
-                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                     "type": "integer"
                   },
                   {
@@ -4571,13 +4571,13 @@
               "c": {
                 "description": "A list of condition codes.\n",
                 "items": {
-                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                   "type": "integer"
                 },
                 "type": "array"
               },
               "i": {
-                "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+                "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
                 "items": {
                   "description": "The indicator code.\n",
                   "type": "integer"
@@ -4596,7 +4596,7 @@
               "x": {
                 "allOf": [
                   {
-                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                     "type": "integer"
                   },
                   {
@@ -4676,7 +4676,7 @@
                     "X": {
                       "allOf": [
                         {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         {
@@ -4687,13 +4687,13 @@
                     "c": {
                       "description": "A list of condition codes.\n",
                       "items": {
-                        "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                        "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                         "type": "integer"
                       },
                       "type": "array"
                     },
                     "i": {
-                      "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+                      "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
                       "items": {
                         "description": "The indicator code.\n",
                         "type": "integer"
@@ -4712,7 +4712,7 @@
                     "x": {
                       "allOf": [
                         {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         {
@@ -4785,7 +4785,7 @@
               "c": {
                 "description": "A list of condition codes.\n",
                 "items": {
-                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                   "type": "integer"
                 },
                 "type": "array"
@@ -4813,7 +4813,7 @@
                 "type": "number"
               },
               "x": {
-                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                 "type": "integer"
               },
               "z": {
@@ -4878,7 +4878,7 @@
                     "c": {
                       "description": "A list of condition codes.\n",
                       "items": {
-                        "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                        "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                         "type": "integer"
                       },
                       "type": "array"
@@ -4906,7 +4906,7 @@
                       "type": "number"
                     },
                     "x": {
-                      "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                      "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                       "type": "integer"
                     },
                     "z": {
@@ -5289,7 +5289,7 @@
                           "type": "number"
                         },
                         "exchange": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "timestamp": {
@@ -5490,7 +5490,7 @@
                               "c": {
                                 "description": "A list of condition codes.\n",
                                 "items": {
-                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                                   "type": "integer"
                                 },
                                 "type": "array"
@@ -5514,7 +5514,7 @@
                                 "type": "integer"
                               },
                               "x": {
-                                "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                                "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                                 "type": "integer"
                               }
                             },
@@ -5711,7 +5711,7 @@
                                 "type": "integer"
                               },
                               "x": {
-                                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "type": "integer"
                               }
                             },
@@ -12421,7 +12421,7 @@
                         "conditions": {
                           "description": "A list of condition codes.",
                           "items": {
-                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                             "format": "int32",
                             "type": "integer"
                           },
@@ -12431,7 +12431,7 @@
                           }
                         },
                         "exchange": {
-                          "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.",
+                          "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.",
                           "type": "integer"
                         },
                         "price": {
@@ -12568,7 +12568,7 @@
                           "type": "number"
                         },
                         "exchange": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "timestamp": {
@@ -12994,7 +12994,7 @@
                           "c": {
                             "description": "A list of condition codes.\n",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                               "type": "integer"
                             },
                             "type": "array"
@@ -13018,7 +13018,7 @@
                             "type": "integer"
                           },
                           "x": {
-                            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                             "type": "integer"
                           }
                         },
@@ -13054,7 +13054,7 @@
                           "c": {
                             "description": "A list of condition codes.\n",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                               "type": "integer"
                             },
                             "type": "array"
@@ -13078,7 +13078,7 @@
                             "type": "integer"
                           },
                           "x": {
-                            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                            "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                             "type": "integer"
                           }
                         },
@@ -14604,7 +14604,7 @@
         "operationId": "SnapshotSummary",
         "parameters": [
           {
-            "description": "Comma separated list of tickers. This API currently supports Stocks/Equities, Crypto, Options, and Forex. See <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_tickers\">the tickers endpoint</a> for more details on supported tickers. If no tickers are passed then no results will be returned.\n\nWarning: The maximum number of characters allowed in a URL are subject to your technology stack.",
+            "description": "Comma separated list of tickers. This API currently supports Stocks/Equities, Crypto, Options, and Forex. See <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers\">the tickers endpoint</a> for more details on supported tickers. If no tickers are passed then no results will be returned.\n\nWarning: The maximum number of characters allowed in a URL are subject to your technology stack.",
             "example": "NCLH,O:SPY250321C00380000,C:EURUSD,X:BTCUSD",
             "in": "query",
             "name": "ticker.any_of",
@@ -15854,7 +15854,7 @@
             }
           },
           {
-            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
             "example": 120,
             "in": "query",
             "name": "limit",
@@ -16307,7 +16307,7 @@
             }
           },
           {
-            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
             "example": 120,
             "in": "query",
             "name": "limit",
@@ -16704,7 +16704,7 @@
             }
           },
           {
-            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
             "example": 120,
             "in": "query",
             "name": "limit",
@@ -17126,7 +17126,7 @@
             }
           },
           {
-            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
             "example": 120,
             "in": "query",
             "name": "limit",
@@ -17574,7 +17574,7 @@
             }
           },
           {
-            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.io/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
+            "description": "Limits the number of base aggregates queried to create the aggregate results. Max 50000 and Default 5000.\nRead more about how limit is used to calculate aggregate results in our article on\n<a href=\"https://polygon.theedman.com:8000/blog/aggs-api-updates/\" target=\"_blank\" alt=\"Aggregate Data API Improvements\">Aggregate Data API Improvements</a>.\n",
             "example": 120,
             "in": "query",
             "name": "limit",
@@ -17826,13 +17826,13 @@
                           "type": "string"
                         },
                         "X": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "c": {
                           "description": "A list of condition codes.",
                           "items": {
-                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                             "format": "int32",
                             "type": "integer"
                           },
@@ -17848,7 +17848,7 @@
                         "i": {
                           "description": "A list of indicator codes.",
                           "items": {
-                            "description": "The indicator codes. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).",
+                            "description": "The indicator codes. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).",
                             "format": "int32",
                             "type": "integer"
                           },
@@ -17876,7 +17876,7 @@
                           "type": "integer"
                         },
                         "x": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "y": {
@@ -18005,7 +18005,7 @@
                         "c": {
                           "description": "A list of condition codes.",
                           "items": {
-                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                             "format": "int32",
                             "type": "integer"
                           },
@@ -18050,7 +18050,7 @@
                           "type": "integer"
                         },
                         "x": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "y": {
@@ -18185,7 +18185,7 @@
                         "c": {
                           "description": "A list of condition codes.",
                           "items": {
-                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                            "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                             "format": "int32",
                             "type": "integer"
                           },
@@ -18230,7 +18230,7 @@
                           "type": "integer"
                         },
                         "x": {
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                           "type": "integer"
                         },
                         "y": {
@@ -18852,7 +18852,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -18888,7 +18888,7 @@
                                         "type": "integer"
                                       },
                                       "x": {
-                                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                                         "type": "integer"
                                       }
                                     },
@@ -19218,7 +19218,7 @@
                               "type": "object"
                             },
                             "fmv": {
-                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                               "format": "double",
                               "type": "number"
                             },
@@ -19254,7 +19254,7 @@
                                       "type": "integer"
                                     },
                                     "x": {
-                                      "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                                      "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                                       "type": "integer"
                                     }
                                   },
@@ -19759,7 +19759,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -19795,7 +19795,7 @@
                                         "type": "integer"
                                       },
                                       "x": {
-                                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
+                                        "description": "The exchange that this crypto trade happened on.  \nSee <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a mapping of exchanges to IDs.\n",
                                         "type": "integer"
                                       }
                                     },
@@ -20104,7 +20104,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -20426,7 +20426,7 @@
                               "type": "object"
                             },
                             "fmv": {
-                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                               "format": "double",
                               "type": "number"
                             },
@@ -20739,7 +20739,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -21091,7 +21091,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -21158,7 +21158,7 @@
                                     "type": "integer"
                                   },
                                   "x": {
-                                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                     "type": "integer"
                                   }
                                 },
@@ -21502,7 +21502,7 @@
                               "type": "object"
                             },
                             "fmv": {
-                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                              "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                               "format": "double",
                               "type": "number"
                             },
@@ -21569,7 +21569,7 @@
                                   "type": "integer"
                                 },
                                 "x": {
-                                  "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                  "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                   "type": "integer"
                                 }
                               },
@@ -21912,7 +21912,7 @@
                                 "type": "object"
                               },
                               "fmv": {
-                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                                "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                                 "format": "double",
                                 "type": "number"
                               },
@@ -21979,7 +21979,7 @@
                                     "type": "integer"
                                   },
                                   "x": {
-                                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                     "type": "integer"
                                   }
                                 },
@@ -22401,7 +22401,7 @@
                                   "X": {
                                     "allOf": [
                                       {
-                                        "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                        "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                         "type": "integer"
                                       },
                                       {
@@ -22412,13 +22412,13 @@
                                   "c": {
                                     "description": "A list of condition codes.\n",
                                     "items": {
-                                      "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                                      "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                                       "type": "integer"
                                     },
                                     "type": "array"
                                   },
                                   "i": {
-                                    "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+                                    "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
                                     "items": {
                                       "description": "The indicator code.\n",
                                       "type": "integer"
@@ -22437,7 +22437,7 @@
                                   "x": {
                                     "allOf": [
                                       {
-                                        "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                        "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                         "type": "integer"
                                       },
                                       {
@@ -22721,7 +22721,7 @@
                                   "c": {
                                     "description": "A list of condition codes.\n",
                                     "items": {
-                                      "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
+                                      "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/get_v3_reference_conditions)\nfor a mapping to exchange conditions.\n",
                                       "type": "integer"
                                     },
                                     "type": "array"
@@ -22749,7 +22749,7 @@
                                     "type": "number"
                                   },
                                   "x": {
-                                    "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                    "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                     "type": "integer"
                                   },
                                   "z": {
@@ -23455,7 +23455,7 @@
                           "conditions": {
                             "description": "A list of condition codes.",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                               "format": "int32",
                               "type": "integer"
                             },
@@ -23467,7 +23467,7 @@
                           "indicators": {
                             "description": "A list of indicator codes.",
                             "items": {
-                              "description": "The indicator codes. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).",
+                              "description": "The indicator codes. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).",
                               "format": "int32",
                               "type": "integer"
                             },
@@ -25138,7 +25138,7 @@
         "operationId": "ListOptionsContracts",
         "parameters": [
           {
-            "description": "This parameter has been deprecated. To search by specific options ticker, use the Options Contract endpoint [here](https://polygon.io/docs/options/get_v3_reference_options_contracts__options_ticker).",
+            "description": "This parameter has been deprecated. To search by specific options ticker, use the Options Contract endpoint [here](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts__options_ticker).",
             "in": "query",
             "name": "ticker",
             "schema": {
@@ -25534,7 +25534,7 @@
         "operationId": "GetOptionsContract",
         "parameters": [
           {
-            "description": "Query for a contract by options ticker. You can learn more about the structure of options tickers [here](https://polygon.io/blog/how-to-read-a-stock-options-ticker/).",
+            "description": "Query for a contract by options ticker. You can learn more about the structure of options tickers [here](https://polygon.theedman.com:8000/blog/how-to-read-a-stock-options-ticker/).",
             "example": "O:SPY251219C00650000",
             "in": "path",
             "name": "options_ticker",
@@ -25974,7 +25974,7 @@
             }
           },
           {
-            "description": "Specify the type of the tickers. Find the types that we support via our [Ticker Types API](https://polygon.io/docs/stocks/get_v3_reference_tickers_types).\nDefaults to empty string which queries all types.",
+            "description": "Specify the type of the tickers. Find the types that we support via our [Ticker Types API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers_types).\nDefaults to empty string which queries all types.",
             "in": "query",
             "name": "type",
             "schema": {
@@ -26262,7 +26262,7 @@
                             "type": "string"
                           },
                           "type": {
-                            "description": "The type of the asset. Find the types that we support via our [Ticker Types API](https://polygon.io/docs/stocks/get_v3_reference_tickers_types).",
+                            "description": "The type of the asset. Find the types that we support via our [Ticker Types API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers_types).",
                             "type": "string"
                           }
                         },
@@ -26758,7 +26758,7 @@
                           "type": "number"
                         },
                         "type": {
-                          "description": "The type of the asset. Find the types that we support via our [Ticker Types API](https://polygon.io/docs/stocks/get_v3_reference_tickers_types).",
+                          "description": "The type of the asset. Find the types that we support via our [Ticker Types API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers_types).",
                           "type": "string"
                         },
                         "weighted_shares_outstanding": {
@@ -27122,11 +27122,11 @@
                             "type": "string"
                           },
                           "fmv": {
-                            "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                            "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                             "type": "number"
                           },
                           "greeks": {
-                            "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.io/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
+                            "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.theedman.com:8000/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
                             "properties": {
                               "delta": {
                                 "description": "The change in the option's price per $0.01 increment in the price of the underlying asset.",
@@ -27174,7 +27174,7 @@
                                 "type": "number"
                               },
                               "ask_exchange": {
-                                "description": "The ask side exchange ID. See <a href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The ask side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "type": "integer"
                               },
                               "ask_size": {
@@ -27188,7 +27188,7 @@
                                 "type": "number"
                               },
                               "bid_exchange": {
-                                "description": "The bid side exchange ID. See <a href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The bid side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "type": "integer"
                               },
                               "bid_size": {
@@ -27236,14 +27236,14 @@
                               "conditions": {
                                 "description": "A list of condition codes.",
                                 "items": {
-                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                                   "format": "int32",
                                   "type": "integer"
                                 },
                                 "type": "array"
                               },
                               "exchange": {
-                                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "type": "integer"
                               },
                               "id": {
@@ -28213,11 +28213,11 @@
                             }
                           },
                           "fmv": {
-                            "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                            "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                             "type": "number"
                           },
                           "greeks": {
-                            "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.io/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
+                            "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.theedman.com:8000/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
                             "properties": {
                               "delta": {
                                 "description": "The change in the option's price per $0.01 increment in the price of the underlying asset.",
@@ -28265,7 +28265,7 @@
                                 "type": "number"
                               },
                               "ask_exchange": {
-                                "description": "The ask side exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The ask side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "format": "int32",
                                 "type": "number"
                               },
@@ -28280,7 +28280,7 @@
                                 "type": "number"
                               },
                               "bid_exchange": {
-                                "description": "The bid side exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The bid side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "format": "int32",
                                 "type": "number"
                               },
@@ -28330,14 +28330,14 @@
                               "conditions": {
                                 "description": "A list of condition codes.",
                                 "items": {
-                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/options/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                                  "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/options/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                                   "format": "int32",
                                   "type": "integer"
                                 },
                                 "type": "array"
                               },
                               "exchange": {
-                                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                                 "type": "integer"
                               },
                               "price": {
@@ -28742,11 +28742,11 @@
                           }
                         },
                         "fmv": {
-                          "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.",
+                          "description": "Fair market value is only available on Business plans. It's it our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security.\nFor more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.",
                           "type": "number"
                         },
                         "greeks": {
-                          "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.io/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
+                          "description": "The greeks for this contract.\nThere are certain circumstances where greeks will not be returned, such as options contracts that are deep in the money.\nSee this <a href=\"https://polygon.theedman.com:8000/blog/greeks-and-implied-volatility/#testing\"\nalt=\"link\">article</a> for more information.",
                           "properties": {
                             "delta": {
                               "description": "The change in the option's price per $0.01 increment in the price of the underlying asset.",
@@ -28794,7 +28794,7 @@
                               "type": "number"
                             },
                             "ask_exchange": {
-                              "description": "The ask side exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                              "description": "The ask side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                               "format": "int32",
                               "type": "number"
                             },
@@ -28809,7 +28809,7 @@
                               "type": "number"
                             },
                             "bid_exchange": {
-                              "description": "The bid side exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                              "description": "The bid side exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                               "format": "int32",
                               "type": "number"
                             },
@@ -28859,14 +28859,14 @@
                             "conditions": {
                               "description": "A list of condition codes.",
                               "items": {
-                                "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/options/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                                "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/options/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                                 "format": "int32",
                                 "type": "integer"
                               },
                               "type": "array"
                             },
                             "exchange": {
-                              "description": "The exchange ID. See <a href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                              "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                               "type": "integer"
                             },
                             "price": {
@@ -29159,7 +29159,7 @@
                           "conditions": {
                             "description": "A list of condition codes.",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                               "format": "int32",
                               "type": "integer"
                             },
@@ -29169,7 +29169,7 @@
                             }
                           },
                           "exchange": {
-                            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                             "type": "integer"
                           },
                           "id": {
@@ -29404,7 +29404,7 @@
                           "conditions": {
                             "description": "A list of condition codes.",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                               "format": "int32",
                               "type": "integer"
                             },
@@ -29418,7 +29418,7 @@
                             "type": "integer"
                           },
                           "exchange": {
-                            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                             "type": "integer"
                           },
                           "participant_timestamp": {
@@ -29662,7 +29662,7 @@
                           "conditions": {
                             "description": "A list of condition codes.",
                             "items": {
-                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.io/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
+                              "description": "The condition code. These are the conditions of this message. See\n[Condition Mappings](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions)\nfor a mapping to exchange conditions.",
                               "format": "int32",
                               "type": "integer"
                             },
@@ -29676,7 +29676,7 @@
                             "type": "integer"
                           },
                           "exchange": {
-                            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
+                            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs.",
                             "type": "integer"
                           },
                           "id": {
@@ -30344,7 +30344,7 @@
                           "financials": {
                             "properties": {
                               "balance_sheet": {
-                                "description": "Balance sheet.\nThe keys in this object can be any of the fields listed in the Balance Sheet section of the <a target=\"_blank\" href=\"https://polygon.io/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.",
+                                "description": "Balance sheet.\nThe keys in this object can be any of the fields listed in the Balance Sheet section of the <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.",
                                 "properties": {
                                   "*": {
                                     "description": "An individual financial data point.",
@@ -30396,15 +30396,15 @@
                                 "type": "object"
                               },
                               "cash_flow_statement": {
-                                "description": "Cash flow statement.\nThe keys in this object can be any of the fields listed in the Cash Flow Statement section of the <a target=\"_blank\" href=\"https://polygon.io/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
+                                "description": "Cash flow statement.\nThe keys in this object can be any of the fields listed in the Cash Flow Statement section of the <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
                                 "type": "object"
                               },
                               "comprehensive_income": {
-                                "description": "Comprehensive income.\nThe keys in this object can be any of the fields listed in the Comprehensive Income section of the <a target=\"_blank\" href=\"https://polygon.io/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
+                                "description": "Comprehensive income.\nThe keys in this object can be any of the fields listed in the Comprehensive Income section of the <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
                                 "type": "object"
                               },
                               "income_statement": {
-                                "description": "Income statement.\nThe keys in this object can be any of the fields listed in the Income Statement section of the <a target=\"_blank\" href=\"https://polygon.io/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
+                                "description": "Income statement.\nThe keys in this object can be any of the fields listed in the Income Statement section of the <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/blog/financials-api-glossary-of-fields\">financials API glossary of terms</a>.\nSee the attributes of the objects within `balance_sheet` for more details.",
                                 "type": "object"
                               }
                             },
@@ -31073,7 +31073,7 @@
         "operationId": "GetEvents",
         "parameters": [
           {
-            "description": "Identifier of an asset. This can currently be a Ticker, CUSIP, or Composite FIGI.\nWhen given a ticker, we return events for the entity currently represented by that ticker.\nTo find events for entities previously associated with a ticker, find the relevant identifier using the \n[Ticker Details Endpoint](https://polygon.io/docs/stocks/get_v3_reference_tickers__ticker)",
+            "description": "Identifier of an asset. This can currently be a Ticker, CUSIP, or Composite FIGI.\nWhen given a ticker, we return events for the entity currently represented by that ticker.\nTo find events for entities previously associated with a ticker, find the relevant identifier using the \n[Ticker Details Endpoint](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers__ticker)",
             "example": "META",
             "in": "path",
             "name": "id",

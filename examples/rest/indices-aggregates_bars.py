@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/indices/get_v2_aggs_ticker__indicesticker__range__multiplier___timespan___from___to
+# https://polygon.theedman.com:8000/docs/indices/get_v2_aggs_ticker__indicesticker__range__multiplier___timespan___from___to
 # https://polygon-api-client.readthedocs.io/en/latest/Aggs.html#polygon.RESTClient.list_aggs
 
 # API key injected below for easy use. If not provided, the script will attempt

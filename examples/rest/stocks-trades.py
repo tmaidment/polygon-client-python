@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/stocks/get_v3_trades__stockticker
+# https://polygon.theedman.com:8000/docs/stocks/get_v3_trades__stockticker
 # https://polygon-api-client.readthedocs.io/en/latest/Trades.html#polygon.RESTClient.list_trades
 
 # Trade data refers to the tick records of individual transactions that have

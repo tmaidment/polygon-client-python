@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/crypto/get_v3_trades__cryptoticker
+# https://polygon.theedman.com:8000/docs/crypto/get_v3_trades__cryptoticker
 # https://polygon-api-client.readthedocs.io/en/latest/Trades.html#polygon.RESTClient.list_trades
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

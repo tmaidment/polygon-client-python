@@ -1,10 +1,10 @@
 # Mapping Market Movements with Polygon.io and D3.js Treemap
 
-This repository offers a tutorial on how to create a Treemap visualization of the current stock market conditions. Using D3.js Treemap, Polygon.io's [Snapshot API](https://polygon.io/docs/stocks/get_v2_snapshot_locale_us_markets_stocks_tickers), and the [python-client library](https://github.com/polygon-io/client-python), we'll guide you through building an interactive visualization. The Snapshot API allows us to fetch the most recent market data for all US-traded stocks, transforming them into color-coded nested rectangles within the Treemap. This presents an insightful and interactive snapshot of the market's current status.
+This repository offers a tutorial on how to create a Treemap visualization of the current stock market conditions. Using D3.js Treemap, Polygon.io's [Snapshot API](https://polygon.theedman.com:8000/docs/stocks/get_v2_snapshot_locale_us_markets_stocks_tickers), and the [python-client library](https://github.com/polygon-io/client-python), we'll guide you through building an interactive visualization. The Snapshot API allows us to fetch the most recent market data for all US-traded stocks, transforming them into color-coded nested rectangles within the Treemap. This presents an insightful and interactive snapshot of the market's current status.
 
 ![Treemap Visualization](./market-wide-treemap.png)
 
-Please see the [tutorial](https://polygon.io/blog/market-movements-with-treemap) for more details.
+Please see the [tutorial](https://polygon.theedman.com:8000/blog/market-movements-with-treemap) for more details.
 
 ## Structure
 

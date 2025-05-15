@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/options/get_v1_open-close__optionsticker___date
+# https://polygon.theedman.com:8000/docs/options/get_v1_open-close__optionsticker___date
 # https://polygon-api-client.readthedocs.io/en/latest/Aggs.html#get-daily-open-close-agg
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

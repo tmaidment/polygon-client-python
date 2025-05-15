@@ -8,7 +8,7 @@ import threading
 import os
 
 # docs
-# https://polygon.io/docs/stocks/ws_stocks_am
+# https://polygon.theedman.com:8000/docs/stocks/ws_stocks_am
 # https://polygon-api-client.readthedocs.io/en/latest/WebSocket.html#
 
 # This program connects to the Polygon WebSocket API, authenticates the

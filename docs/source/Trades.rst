@@ -30,9 +30,9 @@ Get last crypto trade
 
 .. automethod:: polygon.RESTClient.get_last_crypto_trade
 
-.. _Stocks trades: https://polygon.io/docs/stocks/get_v3_trades__stockticker
-.. _Options trades: https://polygon.io/docs/options/get_v3_trades__optionsticker
-.. _Crypto trades: https://polygon.io/docs/crypto/get_v3_trades__cryptoticker
-.. _Stocks last trade: https://polygon.io/docs/stocks/get_v2_last_trade__stocksticker
-.. _Options last trade: https://polygon.io/docs/options/get_v2_last_trade__optionsticker
-.. _Crypto last trade for crypto pair: https://polygon.io/docs/crypto/get_v1_last_crypto__from___to
+.. _Stocks trades: https://polygon.theedman.com:8000/docs/stocks/get_v3_trades__stockticker
+.. _Options trades: https://polygon.theedman.com:8000/docs/options/get_v3_trades__optionsticker
+.. _Crypto trades: https://polygon.theedman.com:8000/docs/crypto/get_v3_trades__cryptoticker
+.. _Stocks last trade: https://polygon.theedman.com:8000/docs/stocks/get_v2_last_trade__stocksticker
+.. _Options last trade: https://polygon.theedman.com:8000/docs/options/get_v2_last_trade__optionsticker
+.. _Crypto last trade for crypto pair: https://polygon.theedman.com:8000/docs/crypto/get_v1_last_crypto__from___to

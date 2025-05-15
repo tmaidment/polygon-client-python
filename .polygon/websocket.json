@@ -219,7 +219,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -248,7 +248,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                     },
                     "i": {
                       "type": "string",
@@ -269,7 +269,7 @@
                     },
                     "c": {
                       "type": "array",
-                      "description": "The trade conditions. See <a target=\"_blank\" href=\"https://polygon.io/glossary/us/stocks/conditions-indicators\" \nalt=\"Conditions and Indicators\">Conditions and Indicators</a> for Polygon.io's trade conditions glossary.\n",
+                      "description": "The trade conditions. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators\" \nalt=\"Conditions and Indicators\">Conditions and Indicators</a> for Polygon.io's trade conditions glossary.\n",
                       "items": {
                         "type": "integer",
                         "description": "The ID of the condition."
@@ -340,7 +340,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -399,7 +399,7 @@
                     },
                     "i": {
                       "type": "array",
-                      "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+                      "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
                       "items": {
                         "type": "integer",
                         "description": "The indicator code.\n"
@@ -464,7 +464,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -611,7 +611,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -758,7 +758,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -856,7 +856,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -901,7 +901,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                     },
                     "o": {
                       "type": "integer",
@@ -958,7 +958,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -983,7 +983,7 @@
                       "description": "The event type."
                     },
                     "fmv": {
-                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.\n"
+                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.\n"
                     },
                     "sym": {
                       "description": "The ticker symbol for the given security."
@@ -1031,7 +1031,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1160,7 +1160,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+            "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1233,7 +1233,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1262,7 +1262,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                      "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                     },
                     "p": {
                       "type": "number",
@@ -1335,7 +1335,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1364,11 +1364,11 @@
                     },
                     "bx": {
                       "type": "integer",
-                      "description": "The bid exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                      "description": "The bid exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                     },
                     "ax": {
                       "type": "integer",
-                      "description": "The ask exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                      "description": "The ask exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                     },
                     "bp": {
                       "type": "number",
@@ -1438,7 +1438,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1581,7 +1581,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1724,7 +1724,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1749,7 +1749,7 @@
                       "description": "The event type."
                     },
                     "fmv": {
-                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.\n"
+                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.\n"
                     },
                     "sym": {
                       "description": "The ticker symbol for the given security."
@@ -1797,7 +1797,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1926,7 +1926,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+            "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -1999,7 +1999,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2028,7 +2028,7 @@
                         },
                         "x": {
                           "type": "integer",
-                          "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                          "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
                         },
                         "a": {
                           "type": "number",
@@ -2094,7 +2094,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2194,7 +2194,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2294,7 +2294,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2319,7 +2319,7 @@
                       "description": "The event type."
                     },
                     "fmv": {
-                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.\n"
+                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.\n"
                     },
                     "sym": {
                       "description": "The ticker symbol for the given security."
@@ -2367,7 +2367,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2496,7 +2496,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+            "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2569,7 +2569,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2625,7 +2625,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
                     },
                     "r": {
                       "type": "integer",
@@ -2674,7 +2674,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2728,7 +2728,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
                     },
                     "r": {
                       "type": "integer",
@@ -2775,7 +2775,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -2833,7 +2833,7 @@
                     },
                     "x": {
                       "type": "integer",
-                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+                      "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
                     },
                     "r": {
                       "type": "integer",
@@ -2899,7 +2899,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3011,7 +3011,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3123,7 +3123,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3148,7 +3148,7 @@
                       "description": "The event type."
                     },
                     "fmv": {
-                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.\n"
+                      "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.\n"
                     },
                     "sym": {
                       "description": "The ticker symbol for the given security."
@@ -3196,7 +3196,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3325,7 +3325,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+            "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3398,7 +3398,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.io/docs/indices/get_v3_reference_tickers).\n",
+            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3514,7 +3514,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.io/docs/indices/get_v3_reference_tickers).\n",
+            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3630,7 +3630,7 @@
           {
             "name": "ticker",
             "in": "query",
-            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.io/docs/indices/get_v3_reference_tickers).\n",
+            "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers).\n",
             "required": true,
             "schema": {
               "type": "string",
@@ -3943,7 +3943,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "i": {
             "type": "string",
@@ -3964,7 +3964,7 @@
           },
           "c": {
             "type": "array",
-            "description": "The trade conditions. See <a target=\"_blank\" href=\"https://polygon.io/glossary/us/stocks/conditions-indicators\" \nalt=\"Conditions and Indicators\">Conditions and Indicators</a> for Polygon.io's trade conditions glossary.\n",
+            "description": "The trade conditions. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators\" \nalt=\"Conditions and Indicators\">Conditions and Indicators</a> for Polygon.io's trade conditions glossary.\n",
             "items": {
               "type": "integer",
               "description": "The ID of the condition."
@@ -4033,7 +4033,7 @@
           },
           "i": {
             "type": "array",
-            "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.io/glossary/us/stocks/conditions-indicators).\n",
+            "description": "The indicators. For more information, see our glossary of [Conditions and\nIndicators](https://polygon.theedman.com:8000/glossary/us/stocks/conditions-indicators).\n",
             "items": {
               "type": "integer",
               "description": "The indicator code.\n"
@@ -4369,7 +4369,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "o": {
             "type": "integer",
@@ -4396,7 +4396,7 @@
       },
       "StockExchangeID": {
         "type": "integer",
-        "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+        "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
       },
       "OptionTradeEvent": {
         "type": "object",
@@ -4413,7 +4413,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "p": {
             "type": "number",
@@ -4457,11 +4457,11 @@
           },
           "bx": {
             "type": "integer",
-            "description": "The bid exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The bid exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "ax": {
             "type": "integer",
-            "description": "The ask exchange ID. See <a target=\"_blank\" href=\"https://polygon.io/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The ask exchange ID. See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "bp": {
             "type": "number",
@@ -4737,7 +4737,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+            "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
           },
           "a": {
             "type": "number",
@@ -4770,7 +4770,7 @@
               },
               "x": {
                 "type": "integer",
-                "description": "The exchange ID. See <a href=\"https://polygon.io/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
+                "description": "The exchange ID. See <a href=\"https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges\" alt=\"Exchanges\">Exchanges</a> for Polygon.io's mapping of exchange IDs."
               },
               "a": {
                 "type": "number",
@@ -4936,7 +4936,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
           },
           "r": {
             "type": "integer",
@@ -4986,7 +4986,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
           },
           "r": {
             "type": "integer",
@@ -5152,7 +5152,7 @@
           },
           "x": {
             "type": "integer",
-            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+            "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
           },
           "r": {
             "type": "integer",
@@ -5166,7 +5166,7 @@
       },
       "CryptoExchangeID": {
         "type": "integer",
-        "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.io/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
+        "description": "The crypto exchange ID.  See <a target=\"_blank\" href=\"https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges\">Exchanges</a> for a list of exchanges and their IDs.\n"
       },
       "CryptoReceivedTimestamp": {
         "type": "integer",
@@ -5455,7 +5455,7 @@
             "description": "The event type."
           },
           "fmv": {
-            "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.io/contact\">contact us</a>.\n"
+            "description": "Fair market value is only available on Business plans. It is our proprietary algorithm to generate a real-time, accurate, fair market value of a tradable security. For more information, <a rel=\"nofollow\" target=\"_blank\" href=\"https://polygon.theedman.com:8000/contact\">contact us</a>.\n"
           },
           "sym": {
             "description": "The ticker symbol for the given security."
@@ -5470,7 +5470,7 @@
       "StocksTickerParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.io/docs/stocks/get_v3_reference_tickers).\n",
+        "description": "Specify a stock ticker or use * to subscribe to all stock tickers.\nYou can also use a comma separated list to subscribe to multiple stock tickers.\nYou can retrieve available stock tickers from our [Stock Tickers API](https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5481,7 +5481,7 @@
       "OptionsTickerParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+        "description": "Specify an option contract or use * to subscribe to all option contracts.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5492,7 +5492,7 @@
       "OptionsTickerWithoutWildcardParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.io/docs/options/get_v3_reference_options_contracts).\n",
+        "description": "Specify an option contract. You're only allowed to subscribe to 1,000 option contracts per connection.\nYou can also use a comma separated list to subscribe to multiple option contracts.\nYou can retrieve active options contracts from our [Options Contracts API](https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5503,7 +5503,7 @@
       "ForexTickerParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.io/docs/forex/get_v3_reference_tickers).\n",
+        "description": "Specify a forex pair in the format {from}/{to} or use * to subscribe to all forex pairs.\nYou can also use a comma separated list to subscribe to multiple forex pairs.\nYou can retrieve active forex tickers from our [Forex Tickers API](https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5514,7 +5514,7 @@
       "CryptoTickerParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.io/docs/crypto/get_v3_reference_tickers).\n",
+        "description": "Specify a crypto pair in the format {from}-{to} or use * to subscribe to all crypto pairs.\nYou can also use a comma separated list to subscribe to multiple crypto pairs.\nYou can retrieve active crypto tickers from our [Crypto Tickers API](https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5525,7 +5525,7 @@
       "IndicesIndexParam": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.io/docs/indices/get_v3_reference_tickers).\n",
+        "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers).\n",
         "required": true,
         "schema": {
           "type": "string",
@@ -5536,7 +5536,7 @@
       "IndicesIndexParamWithoutWildcard": {
         "name": "ticker",
         "in": "query",
-        "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.io/docs/indices/get_v3_reference_tickers).\n",
+        "description": "Specify an index ticker using \"I:\" prefix or use * to subscribe to all index tickers.\nYou can also use a comma separated list to subscribe to multiple index tickers.\nYou can retrieve available index tickers from our [Index Tickers API](https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers).\n",
         "required": true,
         "schema": {
           "type": "string",
