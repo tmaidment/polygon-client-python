@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/options/get_v3_reference_options_contracts__options_ticker
+# https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts__options_ticker
 # https://polygon-api-client.readthedocs.io/en/latest/Contracts.html
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

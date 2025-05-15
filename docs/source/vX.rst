@@ -16,4 +16,4 @@ List stock financials
 
 .. automethod:: polygon.rest.VXClient.list_stock_financials
 
-.. _Stocks financials vX: https://polygon.io/docs/stocks/get_vx_reference_financials
+.. _Stocks financials vX: https://polygon.theedman.com:8000/docs/stocks/get_vx_reference_financials

@@ -4,7 +4,7 @@ from polygon.rest.models import (
 )
 
 # docs
-# https://polygon.io/docs/crypto/get_v2_snapshot_locale_global_markets_crypto__direction
+# https://polygon.theedman.com:8000/docs/crypto/get_v2_snapshot_locale_global_markets_crypto__direction
 # https://polygon-api-client.readthedocs.io/en/latest/Snapshot.html#get-gainers-losers-snapshot
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

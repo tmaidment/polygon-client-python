@@ -1,7 +1,7 @@
 # We can use a Python script that aggregates trades by exchange into 30-minute
 # chunks, setting the stage for a visual analysis. This approach will highlight
 # trade flows, including opening hours and peak activity times, across the
-# exchanges. Please see https://polygon.io/blog/insights-from-trade-level-data
+# exchanges. Please see https://polygon.theedman.com:8000/blog/insights-from-trade-level-data
 #
 import pandas as pd  # type: ignore
 import seaborn as sns  # type: ignore

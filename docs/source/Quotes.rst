@@ -37,9 +37,9 @@ Get real-time currency conversion
 
 .. automethod:: polygon.RESTClient.get_real_time_currency_conversion
 
-.. _Stocks quotes: https://polygon.io/docs/stocks/get_v3_quotes__stockticker
-.. _Options quotes: https://polygon.io/docs/options/get_v3_quotes__optionsticker
-.. _Forex quotes: https://polygon.io/docs/forex/get_v3_quotes__fxticker
-.. _Stocks last quote: https://polygon.io/docs/stocks/get_v2_last_nbbo__stocksticker
-.. _Forex last quote for a currency pair: https://polygon.io/docs/forex/get_v1_last_quote_currencies__from___to
-.. _Forex real-time currency conversion: https://polygon.io/docs/forex/get_v1_conversion__from___to
+.. _Stocks quotes: https://polygon.theedman.com:8000/docs/stocks/get_v3_quotes__stockticker
+.. _Options quotes: https://polygon.theedman.com:8000/docs/options/get_v3_quotes__optionsticker
+.. _Forex quotes: https://polygon.theedman.com:8000/docs/forex/get_v3_quotes__fxticker
+.. _Stocks last quote: https://polygon.theedman.com:8000/docs/stocks/get_v2_last_nbbo__stocksticker
+.. _Forex last quote for a currency pair: https://polygon.theedman.com:8000/docs/forex/get_v1_last_quote_currencies__from___to
+.. _Forex real-time currency conversion: https://polygon.theedman.com:8000/docs/forex/get_v1_conversion__from___to

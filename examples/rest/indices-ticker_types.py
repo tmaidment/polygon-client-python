@@ -6,7 +6,7 @@ from polygon.rest.models import (
 )
 
 # docs
-# https://polygon.io/docs/indices/get_v3_reference_tickers_types
+# https://polygon.theedman.com:8000/docs/indices/get_v3_reference_tickers_types
 # https://polygon-api-client.readthedocs.io/en/latest/Reference.html#get-ticker-types
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

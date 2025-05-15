@@ -15,7 +15,7 @@ import datetime
 import io
 
 # docs
-# https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to
+# https://polygon.theedman.com:8000/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to
 # https://polygon-api-client.readthedocs.io/en/latest/Aggs.html#polygon.RESTClient.list_aggs
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

@@ -16,7 +16,7 @@ class SummariesClient(BaseClient):
     ) -> Union[List[SummaryResult], HTTPResponse]:
         """
         GetSummaries retrieves summaries for the ticker list with the given params.
-        For more details see https://polygon.io/docs/stocks/get_v1_summaries.
+        For more details see https://polygon.theedman.com:8000/docs/stocks/get_v1_summaries.
 
         :param ticker_any_of: The ticker symbol
         :param params: Any additional query params

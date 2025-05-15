@@ -101,31 +101,31 @@ Get exchanges
 
 .. automethod:: polygon.RESTClient.get_exchanges
 
-.. _Stocks market holidays: https://polygon.io/docs/stocks/get_v1_marketstatus_upcoming
-.. _Options market holidays: https://polygon.io/docs/options/get_v1_marketstatus_upcoming
-.. _Forex market holidays: https://polygon.io/docs/forex/get_v1_marketstatus_upcoming
-.. _Crypto market holidays: https://polygon.io/docs/crypto/get_v1_marketstatus_upcoming
-.. _Stocks market status: https://polygon.io/docs/stocks/get_v1_marketstatus_now
-.. _Options market status: https://polygon.io/docs/options/get_v1_marketstatus_now
-.. _Forex market status: https://polygon.io/docs/forex/get_v1_marketstatus_now
-.. _Crypto market status: https://polygon.io/docs/crypto/get_v1_marketstatus_now
-.. _Stocks tickers: https://polygon.io/docs/stocks/get_v3_reference_tickers
-.. _Options tickers: https://polygon.io/docs/options/get_v3_reference_tickers
-.. _Forex tickers: https://polygon.io/docs/forex/get_v3_reference_tickers
-.. _Crypto tickers: https://polygon.io/docs/crypto/get_v3_reference_tickers
-.. _Stocks ticker details: https://polygon.io/docs/stocks/get_v3_reference_tickers__ticker
-.. _Options ticker details: https://polygon.io/docs/options/get_v3_reference_tickers__ticker
-.. _Stocks ticker news: https://polygon.io/docs/stocks/get_v2_reference_news
-.. _Options ticker news: https://polygon.io/docs/options/get_v2_reference_news
-.. _Stocks ticker types: https://polygon.io/docs/stocks/get_v3_reference_tickers_types
-.. _Options ticker types: https://polygon.io/docs/options/get_v3_reference_tickers_types
-.. _Stocks splits: https://polygon.io/docs/stocks/get_v3_reference_splits
-.. _Stocks dividends: https://polygon.io/docs/stocks/get_v3_reference_dividends
-.. _Stocks conditions: https://polygon.io/docs/stocks/get_v3_reference_conditions
-.. _Options conditions: https://polygon.io/docs/options/get_v3_reference_conditions
-.. _Forex conditions: https://polygon.io/docs/forex/get_v3_reference_conditions
-.. _Crypto conditions: https://polygon.io/docs/crypto/get_v3_reference_conditions
-.. _Stocks exchanges: https://polygon.io/docs/stocks/get_v3_reference_exchanges
-.. _Options exchanges: https://polygon.io/docs/options/get_v3_reference_exchanges
-.. _Forex exchanges: https://polygon.io/docs/forex/get_v3_reference_exchanges
-.. _Crypto exchanges: https://polygon.io/docs/crypto/get_v3_reference_exchanges
+.. _Stocks market holidays: https://polygon.theedman.com:8000/docs/stocks/get_v1_marketstatus_upcoming
+.. _Options market holidays: https://polygon.theedman.com:8000/docs/options/get_v1_marketstatus_upcoming
+.. _Forex market holidays: https://polygon.theedman.com:8000/docs/forex/get_v1_marketstatus_upcoming
+.. _Crypto market holidays: https://polygon.theedman.com:8000/docs/crypto/get_v1_marketstatus_upcoming
+.. _Stocks market status: https://polygon.theedman.com:8000/docs/stocks/get_v1_marketstatus_now
+.. _Options market status: https://polygon.theedman.com:8000/docs/options/get_v1_marketstatus_now
+.. _Forex market status: https://polygon.theedman.com:8000/docs/forex/get_v1_marketstatus_now
+.. _Crypto market status: https://polygon.theedman.com:8000/docs/crypto/get_v1_marketstatus_now
+.. _Stocks tickers: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers
+.. _Options tickers: https://polygon.theedman.com:8000/docs/options/get_v3_reference_tickers
+.. _Forex tickers: https://polygon.theedman.com:8000/docs/forex/get_v3_reference_tickers
+.. _Crypto tickers: https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_tickers
+.. _Stocks ticker details: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers__ticker
+.. _Options ticker details: https://polygon.theedman.com:8000/docs/options/get_v3_reference_tickers__ticker
+.. _Stocks ticker news: https://polygon.theedman.com:8000/docs/stocks/get_v2_reference_news
+.. _Options ticker news: https://polygon.theedman.com:8000/docs/options/get_v2_reference_news
+.. _Stocks ticker types: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_tickers_types
+.. _Options ticker types: https://polygon.theedman.com:8000/docs/options/get_v3_reference_tickers_types
+.. _Stocks splits: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_splits
+.. _Stocks dividends: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_dividends
+.. _Stocks conditions: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_conditions
+.. _Options conditions: https://polygon.theedman.com:8000/docs/options/get_v3_reference_conditions
+.. _Forex conditions: https://polygon.theedman.com:8000/docs/forex/get_v3_reference_conditions
+.. _Crypto conditions: https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_conditions
+.. _Stocks exchanges: https://polygon.theedman.com:8000/docs/stocks/get_v3_reference_exchanges
+.. _Options exchanges: https://polygon.theedman.com:8000/docs/options/get_v3_reference_exchanges
+.. _Forex exchanges: https://polygon.theedman.com:8000/docs/forex/get_v3_reference_exchanges
+.. _Crypto exchanges: https://polygon.theedman.com:8000/docs/crypto/get_v3_reference_exchanges

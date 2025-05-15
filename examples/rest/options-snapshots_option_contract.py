@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/options/get_v3_snapshot_options__underlyingasset___optioncontract
+# https://polygon.theedman.com:8000/docs/options/get_v3_snapshot_options__underlyingasset___optioncontract
 # https://polygon-api-client.readthedocs.io/en/latest/Snapshot.html
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

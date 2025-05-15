@@ -5,7 +5,7 @@ This Docker setup provides a ready-to-use environment for running Python scripts
 ### Prerequisites
 
 - [Docker](https://www.docker.com/) installed on your machine
-- [Polygon.io](https://polygon.io/) account and API key
+- [Polygon.io](https://polygon.theedman.com:8000/) account and API key
 
 ### Setup and Configuration
 
@@ -38,4 +38,4 @@ Replace `<your_api_key>` with your actual Polygon API key. This command starts a
 ### Additional Notes
 
 - The Docker setup provided here is a very basic example. Depending on your specific requirements, you might need to customize the Dockerfile, such as adding volume mounts for persistent data or exposing ports for network communication.
-- For more details on using the Polygon API and the `polygon-api-client` library, please refer to the [Polygon documentation](https://polygon.io/docs), the [polygon-io/client-python](https://github.com/polygon-io/client-python) repo, or the [polygon-api-client documentation](https://polygon-api-client.readthedocs.io/en/latest/).
+- For more details on using the Polygon API and the `polygon-api-client` library, please refer to the [Polygon documentation](https://polygon.theedman.com:8000/docs), the [polygon-io/client-python](https://github.com/polygon-io/client-python) repo, or the [polygon-api-client documentation](https://polygon-api-client.readthedocs.io/en/latest/).

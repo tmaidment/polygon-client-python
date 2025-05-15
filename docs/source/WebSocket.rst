@@ -39,7 +39,7 @@ Close
 ============================
 .. automethod:: polygon.WebSocketClient.close
 
-.. _Stocks getting started: https://polygon.io/docs/stocks/ws_getting-started
-.. _Options getting started: https://polygon.io/docs/options/ws_getting-started
-.. _Forex getting started: https://polygon.io/docs/forex/ws_getting-started
-.. _Crypto getting started: https://polygon.io/docs/crypto/ws_getting-started
+.. _Stocks getting started: https://polygon.theedman.com:8000/docs/stocks/ws_getting-started
+.. _Options getting started: https://polygon.theedman.com:8000/docs/options/ws_getting-started
+.. _Forex getting started: https://polygon.theedman.com:8000/docs/forex/ws_getting-started
+.. _Crypto getting started: https://polygon.theedman.com:8000/docs/crypto/ws_getting-started

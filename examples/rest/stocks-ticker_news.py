@@ -4,7 +4,7 @@ from polygon.rest.models import (
 )
 
 # docs
-# https://polygon.io/docs/stocks/get_v2_reference_news
+# https://polygon.theedman.com:8000/docs/stocks/get_v2_reference_news
 # https://polygon-api-client.readthedocs.io/en/latest/Reference.html#list-ticker-news
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

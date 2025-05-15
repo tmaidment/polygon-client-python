@@ -3,7 +3,7 @@
 
 # Polygon Python Client - WebSocket & RESTful APIs
 
-Welcome to the official Python client library for the [Polygon](https://polygon.io/) REST and WebSocket API. To get started, please see the [Getting Started](https://polygon.io/docs/stocks/getting-started) section in our documentation, view the [examples](./examples/) directory for code snippets, or the [blog post](https://polygon.io/blog/polygon-io-with-python-for-stock-market-data/) with video tutorials to learn more.
+Welcome to the official Python client library for the [Polygon](https://polygon.theedman.com:8000/) REST and WebSocket API. To get started, please see the [Getting Started](https://polygon.theedman.com:8000/docs/stocks/getting-started) section in our documentation, view the [examples](./examples/) directory for code snippets, or the [blog post](https://polygon.theedman.com:8000/blog/polygon-io-with-python-for-stock-market-data/) with video tutorials to learn more.
 
 ## Prerequisites
 
@@ -18,16 +18,16 @@ pip install -U polygon-api-client
 
 ## Getting started
 
-To get started, please see the [Getting Started](https://polygon-api-client.readthedocs.io/en/latest/Getting-Started.html) section in our docs, view the [examples](./examples) directory for code snippets, or view the [blog post with videos](https://polygon.io/blog/polygon-io-with-python-for-stock-market-data/) to learn more.
+To get started, please see the [Getting Started](https://polygon-api-client.readthedocs.io/en/latest/Getting-Started.html) section in our docs, view the [examples](./examples) directory for code snippets, or view the [blog post with videos](https://polygon.theedman.com:8000/blog/polygon-io-with-python-for-stock-market-data/) to learn more.
 
-The free tier of our API comes with usage limitations, potentially leading to rate limit errors if these are exceeded. For uninterrupted access and to support larger data requirements, we recommend reviewing our [subscription plans](https://polygon.io/pricing), which are tailored for a wide range of needs from development to high-demand applications. Refer to our pricing page for detailed information on limits and features to ensure a seamless experience, especially for real-time data processing.
+The free tier of our API comes with usage limitations, potentially leading to rate limit errors if these are exceeded. For uninterrupted access and to support larger data requirements, we recommend reviewing our [subscription plans](https://polygon.theedman.com:8000/pricing), which are tailored for a wide range of needs from development to high-demand applications. Refer to our pricing page for detailed information on limits and features to ensure a seamless experience, especially for real-time data processing.
 
 ## REST API Client
 Import the RESTClient.
 ```python
 from polygon import RESTClient
 ```
-Create a new client with your [API key](https://polygon.io/dashboard/api-keys)
+Create a new client with your [API key](https://polygon.theedman.com:8000/dashboard/api-keys)
 ```python
 client = RESTClient(api_key="<API_KEY>")
 ```
@@ -128,7 +128,7 @@ from polygon.websocket.models import WebSocketMessage
 from typing import List
 ```
 ### Using the client
-Create a new client with your [API key](https://polygon.io/dashboard/api-keys) and subscription options.
+Create a new client with your [API key](https://polygon.theedman.com:8000/dashboard/api-keys) and subscription options.
 ```python
 # Note: Multiple subscriptions can be added to the array 
 # For example, if you want to subscribe to AAPL and META,

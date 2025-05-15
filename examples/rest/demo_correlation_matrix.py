@@ -5,7 +5,7 @@ not intended to provide investment advice. The examples provided analyze the
 correlation between different stocks from diverse sectors, as well as within 
 specific sectors.
 
-Blog: https://polygon.io/blog/finding-correlation-between-stocks/
+Blog: https://polygon.theedman.com:8000/blog/finding-correlation-between-stocks/
 Video: https://www.youtube.com/watch?v=q0TgaUGWPFc
 
 Before running this script, there are 4 prerequisites:

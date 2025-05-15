@@ -6,7 +6,7 @@ from typing import List
 client = WebSocketClient()  # POLYGON_API_KEY environment variable is used
 
 # docs
-# https://polygon.io/docs/stocks/ws_stocks_am
+# https://polygon.theedman.com:8000/docs/stocks/ws_stocks_am
 # https://polygon-api-client.readthedocs.io/en/latest/WebSocket.html#
 
 # aggregates (per minute)

@@ -4,7 +4,7 @@ This repository contains the Python script and HTML file used in our tutorial to
 
 ![Related Companies](./related-companies.png)
 
-Please see the [tutorial](https://polygon.io/blog/related-companies-api) for more details.
+Please see the [tutorial](https://polygon.theedman.com:8000/blog/related-companies-api) for more details.
 
 ### Prerequisites
 
@@ -33,4 +33,4 @@ To visualize the relationships:
 2. Open `index.html` in your web browser.
 3. The web page should display the network graph.
 
-For a complete step-by-step guide on setting up and exploring the capabilities of the Related Companies API, refer to our detailed [tutorial](https://polygon.io/blog/related-companies-api).
+For a complete step-by-step guide on setting up and exploring the capabilities of the Related Companies API, refer to our detailed [tutorial](https://polygon.theedman.com:8000/blog/related-companies-api).

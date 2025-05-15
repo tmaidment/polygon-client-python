@@ -1,7 +1,7 @@
 Welcome to polygon-api-client's documentation!
 ==============================================
 
-This documentation is for the Python client only. For details about the responses see `the official docs <https://polygon.io/docs>`_.
+This documentation is for the Python client only. For details about the responses see `the official docs <https://polygon.theedman.com:8000/docs>`_.
 
 .. toctree::
   :maxdepth: 1

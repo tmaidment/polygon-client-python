@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/stocks/get_v1_indicators_rsi__stockticker
+# https://polygon.theedman.com:8000/docs/stocks/get_v1_indicators_rsi__stockticker
 # https://github.com/polygon-io/client-python/blob/master/polygon/rest/indicators.py
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used

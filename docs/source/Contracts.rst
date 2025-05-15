@@ -20,5 +20,5 @@ List Options Contracts
 .. automethod:: polygon.RESTClient.list_options_contracts
 
 
-.. _Options Contract: https://polygon.io/docs/options/get_v3_reference_options_contracts__options_ticker
-.. _Options Contracts: https://polygon.io/docs/options/get_v3_reference_options_contracts
+.. _Options Contract: https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts__options_ticker
+.. _Options Contracts: https://polygon.theedman.com:8000/docs/options/get_v3_reference_options_contracts

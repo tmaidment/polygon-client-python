@@ -1,6 +1,6 @@
 # Hunting Anomalies in the Stock Market
 
-This repository contains all the necessary scripts and data directories used in the [Hunting Anomalies in the Stock Market](https://polygon.io/blog/hunting-anomalies-in-stock-market/) tutorial, hosted on Polygon.io's blog. The tutorial demonstrates how to detect statistical anomalies in historical US stock market data through a comprehensive workflow that involves downloading data, building a lookup table, querying for anomalies, and visualizing them through a web interface.
+This repository contains all the necessary scripts and data directories used in the [Hunting Anomalies in the Stock Market](https://polygon.theedman.com:8000/blog/hunting-anomalies-in-stock-market/) tutorial, hosted on Polygon.io's blog. The tutorial demonstrates how to detect statistical anomalies in historical US stock market data through a comprehensive workflow that involves downloading data, building a lookup table, querying for anomalies, and visualizing them through a web interface.
 
 ### Prerequisites
 
@@ -46,4 +46,4 @@ This repository contains all the necessary scripts and data directories used in 
    python gui-lookup-table.py
    ```
 
-For a complete step-by-step guide on each phase of the anomaly detection process, including additional configurations and troubleshooting, refer to the detailed [tutorial on our blog](https://polygon.io/blog/hunting-anomalies-in-stock-market/).
+For a complete step-by-step guide on each phase of the anomaly detection process, including additional configurations and troubleshooting, refer to the detailed [tutorial on our blog](https://polygon.theedman.com:8000/blog/hunting-anomalies-in-stock-market/).

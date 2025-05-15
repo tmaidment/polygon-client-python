@@ -1,7 +1,7 @@
 from polygon import RESTClient
 
 # docs
-# https://polygon.io/docs/forex/get_v3_quotes__fxticker
+# https://polygon.theedman.com:8000/docs/forex/get_v3_quotes__fxticker
 # https://polygon-api-client.readthedocs.io/en/latest/Quotes.html#list-quotes
 
 # client = RESTClient("XXXXXX") # hardcoded api_key is used
